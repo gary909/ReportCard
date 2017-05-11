@@ -9,8 +9,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        public static final String LOG_TAG = ReportCard.class.getSimpleName();
-        Log.d(LOG_TAG, reportCardString);
     }
 }

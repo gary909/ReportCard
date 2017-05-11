@@ -10,7 +10,6 @@ public class ReportCard {
     private int mFrenchScore;       //French Score variable
     private int mGeographyScore;    //Geography Score variable
 
-
     // Setting public constructor
     public ReportCard(String StudentName, int MathsScore, int EnglishScore, int ScienceScore, int FrenchScore, int GeographyScore) {
         mStudentName = StudentName;
@@ -20,7 +19,6 @@ public class ReportCard {
         mFrenchScore = FrenchScore;
         mGeographyScore = GeographyScore;
     }
-
 
     //STUDENT NAME
     //get student name
@@ -33,7 +31,6 @@ public class ReportCard {
         this.mStudentName = studentName;
     }
 
-
     //MATHS
     //Sets Method
     public void setmMathsScore(int MathsScore) {
@@ -43,8 +40,6 @@ public class ReportCard {
     public int getmMathsScore() {
         return mMathsScore;
     }
-
-
 
     //ENGLISH
     //Sets Method
@@ -56,7 +51,6 @@ public class ReportCard {
         return mEnglishScore;
     }
 
-
     //SCIENCE
     //Sets Method
     public void setmScienceScore(int ScienceScore) {
@@ -66,7 +60,6 @@ public class ReportCard {
     public int getmScienceScore() {
         return mScienceScore;
     }
-
 
     //FRENCH
     //Sets Method
@@ -78,7 +71,6 @@ public class ReportCard {
         return mFrenchScore;
     }
 
-
     //GEOGRAPHY
     //Sets Method
     public void setmGeographyScore(int GeographyScore) {
@@ -89,20 +81,11 @@ public class ReportCard {
         return mGeographyScore;
     }
 
-
-
-
-
-
-
     //Student Results Appear Here
-
     @Override
     public String toString() {
         return "Student Name: " + mStudentName + "\nMaths: " + getmMathsScore() + "\nEnglish: "
                 + getmEnglishScore() + "\nScience: " + getmScienceScore() +
                 "\nFrench: " + getmFrenchScore() + "\nGeography: " + getmGeographyScore();
     }
-
-
 }
